@@ -1,8 +1,8 @@
 const config = {
     serverInfo: {
         serverLogoImageFileName: "logo.png", /*Это имя файла логотипа в /images/ (Если вы загружаете новый логотип с другим именем, вам необходимо изменить это значение)*/
-        serverName: "Сервер", /*Имя сервера*/
-        serverIp: "АЙПИ", /*IP-адрес сервера (если вы хотите добавить счетчик пользователей онлайн, у вас должны быть true enable-status и enable-query в server.properties)*/
+        serverName: "Пачка Вареників", /*Имя сервера*/
+        serverIp: "mc.pachkavarenukiv.com", /*IP-адрес сервера (если вы хотите добавить счетчик пользователей онлайн, у вас должны быть true enable-status и enable-query в server.properties)*/
         discordServerID: "" /*Ваш идентификатор сервера (если вы хотите добавить счетчик пользователей онлайн, у вас должен быть включен виджет сервера Discord)*/
     },
 
@@ -30,30 +30,42 @@ const config = {
 
     Если вы хотите изменить тип скина, замените userSKinTypeInAdminTeam на то, что вам нужно, из массива в комментариях.
     */
-    userSKinTypeInAdminTeam: "bust", /*[full, bust, head, face, front, frontFull, skin]*/
+    userSKinTypeInAdminTeam: "full", /*[full, bust, head, face, front, frontFull, skin]*/
     atGroupsDefaultColors: {
-        админы: "rgba(255, 124, 124, 0.5)",
-        разрабы: "rgba(230, 83, 0, 0.5)",
+        адміни: "rgba(255, 124, 124, 0.5)",
+        модери: "rgba(255, 136, 57, 0.7)",
     },
     adminTeamPage: {
-        админы: [
+        адміни: [
             {
-                inGameName: "Steve",
-                rank: "Владелец",
+                inGameName: "VarenukYT",
+                rank: "Власник",
                 skinUrlOrPathToFile: "",
                 rankColor: "rgba(255, 85, 85, 1)"
             },
             {
-                inGameName: "Notch",
-                rank: "Владелец",
+                inGameName: "Anttoha",
+                rank: "Адмін",
                 skinUrlOrPathToFile: "",
-                rankColor: "rgba(255, 85, 85, 1)"
+                rankColor: "rgb(255, 90, 90)"
+            },
+            {
+                inGameName: "jcoll",
+                rank: "Адмін",
+                skinUrlOrPathToFile: "",
+                rankColor: "rgb(255, 90, 90)"
             }
         ],
-        разрабы: [
+        модери: [
             {
-                inGameName: "Alex",
-                rank: "Кодер",
+                inGameName: "cRAZY_1337",
+                rank: "Модер",
+                skinUrlOrPathToFile: "",
+                rankColor: ""
+            },
+            {
+                inGameName: "yaKarasik21",
+                rank: "Модер",
                 skinUrlOrPathToFile: "",
                 rankColor: ""
             }
