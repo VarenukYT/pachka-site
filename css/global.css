@@ -9,27 +9,27 @@
 
 :root {
   --main-font: 'Inter', sans-serif;
-  --main-color: #F0C75E;
+  --main-color: #00ff4c;
   --background-color: #1B1B1B;
   --white-color: #D8D0C1; 
   --black-color: #0E0E0E;
-  --description-color: #746A5A;
+  --description-color: #c7c7c7;
 
   --green-color: #4A734D;
   --ip-copied-background: rgba(74, 115, 77, 0.17);
   --ip-copied-icon-background: rgba(74, 115, 77, 0.5);
 
-  --copy-ip-button-background: rgba(139, 30, 63, 0.7);
+  --copy-ip-button-background: rgba(0, 143, 41, 0.766);
   --how-to-join-button-background: rgba(116, 106, 90, 0.2);
   --stats-background: rgba(116, 106, 90, 0.05); 
-  --stat-icon-background-2: rgba(139, 30, 63, 0.5); 
+  --stat-icon-background-2: rgba(0, 143, 41, 0.766); 
 
   --scroll-bar: rgba(116, 106, 90, 0.3); 
   --scroll-bar-hover: #5B534A;
 
   --red-color: #C72C41; 
-  --warning-background: rgba(199, 44, 65, 0.17); 
-  --warning-icon-background: rgba(199, 44, 65, 0.5);
+  --warning-background: rgba(0, 143, 41, 0.766); 
+  --warning-icon-background: rgba(0, 143, 41, 0.766);
   --warning-color: #B0525E; 
 
   /*Admin-Team rank colors*/

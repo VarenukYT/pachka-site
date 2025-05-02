@@ -66,7 +66,7 @@ const config = {
             {
                 inGameName: "yaKarasik21",
                 rank: "Модер",
-                skinUrlOrPathToFile: "",
+                skinUrlOrPathToFile: "https://i.ibb.co/7dw0NLGr/msedge-BD4q2-RL6-Lh-removebg-preview.png",
                 rankColor: ""
             }
         ]
@@ -133,10 +133,10 @@ const getDiscordOnlineUsers = async () => {
         let response = await fetch(apiWidgetUrl);
         let data = await response.json();
 
-        if(!data.presence_count) return "Ни одного";
+        if(!data.presence_count) return "Жодного";
         else return (await data.presence_count);
     } catch (e) {
-        return "Ни одного";
+        return "Жодного";
     }
 }
 
@@ -151,7 +151,7 @@ const getMinecraftOnlinePlayer = async () => {
         return data.players.online;
     } catch (e) {
         console.log(e);
-        return "Ни одного";
+        return "Жодного";
     }
 }
 
@@ -164,7 +164,7 @@ const getUuidByUsername = async (username) => {
         return data.id;
     } catch (e) {
         console.log(e);
-        return "Ни одного";
+        return "Жодного";
     }
 }
 
@@ -177,7 +177,7 @@ const getSkinByUuid = async (username) => {
         else return skinByUuidApi;
     } catch (e) {
         console.log(e);
-        return "Ни одного";
+        return "Жодного";
     }
 }
 

@@ -155,6 +155,10 @@
     transition: .2s ease-in-out;
 }
 
+#header .icon-link {
+    text-decoration: none;
+}
+
 #header .content .right .stats .stat .icon i {
     display: flex;
     justify-content: center;

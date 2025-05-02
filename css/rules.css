@@ -108,10 +108,12 @@
 }
 
 #rules .rules .rules-title {
+    list-style: none;
     font-size: 30px;
     font-weight: 700;
     color: var(--white-color);
     position: relative;
+    list-style: none;
 }
 
 #rules .rules .rules-title::before {
@@ -141,6 +143,7 @@
     flex-direction: column;
     gap: 10px;
     margin-left: 40px;
+    list-style: none;
 }
 
 #rules .rules .rules-list .rule {
