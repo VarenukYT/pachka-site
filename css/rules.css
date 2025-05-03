@@ -144,12 +144,53 @@
     gap: 10px;
     margin-left: 40px;
     list-style: none;
+    transition: background-color 0.5s ease;
+}
+
+.rules-list li:target {
+    position: relative;
+    background-color: rgba(0, 200, 0, 0.1);
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.rules-list li:target::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 3px;
+    height: 103%;
+    border-radius: 3px;
+    background: var(--main-color);
+}
+
+.rules-list li:nth-child(6):target::after {
+    content: "";
+    height: 105%;
+}
+
+.rules-list li:nth-child(n+8):target::after {
+    content: "";
+    height: 106%;
+}
+
+.rules-list li:nth-child(11):target::after {
+    content: "";
+    height: 103.5%;
+}
+
+.minecraft-rules .rules-list li:nth-child(n+1):target::after {
+    content: "";
+    height: 105%;
 }
 
 #rules .rules .rules-list .rule {
     color: var(--description-color);
     font-size: 17px;
     line-height: 1.6;
+    scroll-margin-top: 40vh;
 }
 
 #rules .rules .rules-list .rule span {
