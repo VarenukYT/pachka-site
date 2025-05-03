@@ -2,7 +2,7 @@ const config = {
     serverInfo: {
         serverLogoImageFileName: "logo.png", /*Это имя файла логотипа в /images/ (Если вы загружаете новый логотип с другим именем, вам необходимо изменить это значение)*/
         serverName: "Пачка Вареників", /*Имя сервера*/
-        serverIp: "mc.pachkavarenukiv.com", /*IP-адрес сервера (если вы хотите добавить счетчик пользователей онлайн, у вас должны быть true enable-status и enable-query в server.properties)*/
+        serverIp: "mc.<wbr>pachka<wbr>varenukiv<wbr>.com", /*IP-адрес сервера (если вы хотите добавить счетчик пользователей онлайн, у вас должны быть true enable-status и enable-query в server.properties)*/
         discordServerID: "" /*Ваш идентификатор сервера (если вы хотите добавить счетчик пользователей онлайн, у вас должен быть включен виджет сервера Discord)*/
     },
 

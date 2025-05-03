@@ -68,6 +68,7 @@
     text-transform: uppercase;
     font-size: 65px;
     font-weight: 900;
+    width: 1000px;
 }
 
 #header .content .left .server-description {
@@ -666,17 +667,21 @@
     }
 }
 
-@media screen and (max-width: 1361px) {
+@media screen and (max-width: 1450px) {
     #header .content {
         flex-direction: column;
         padding: 120px 90px;
         height: 100%;
-        gap: 60px;
+        gap: 30px;
     }
 
     #header .content .left {
         gap: 30px;
         justify-content: left;
+    }
+
+    #header .content .left .server-name h1 {
+        width: 100%;
     }
 
     #header .content .right .stats {
@@ -725,6 +730,7 @@
 
     #header .content .right {
         width: 100%;
+        height: 265px;
     }
 
     #header .content .right .stats {
@@ -753,8 +759,34 @@
 }
 
 @media screen and (max-width: 383px) {
+    /* #header {
+        min-height: 900px;
+        height: 900px;
+    } */
+
+    #header .content {
+        padding: 50px 30px;
+    }
+
     #header .content .left .buttons {
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    #header {
+        min-height: 900px;
+        /* height: 900px; */
+    }
+
+    #header .content {
+        padding: 50px 30px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    #header {
+        min-height: 1100px;
     }
 }
 
