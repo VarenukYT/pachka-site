@@ -4,8 +4,6 @@
 #header {
     background: url("../images/header-background.jpg") no-repeat fixed center;
     min-width: 100%;
-    min-height: 400px;
-    height: 30vh;
     background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -184,6 +182,7 @@
 }
 
 #join-server .content .section-title {
+    width: 100%;
     font-size: 30px;
     font-weight: 700;
     color: var(--white-color);
@@ -197,7 +196,7 @@
 
 #join-server .content .buttons {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -266,7 +265,7 @@
 
 @media screen and (max-width: 819px) {
     #header .content {
-        padding: 150px 30px;
+        padding: 75px 30px;
     }
 
     #header .content .info .minecraft-server-ip {
@@ -307,5 +306,15 @@
     #join-server .content .buttons {
         flex-direction: column;
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    #join-server .content .buttons .copy-ip {
+        padding: 10px 15px;
+    }
+
+    #join-server .content .buttons .join-discord {
+        padding: 10px 15px;
     }
 }

@@ -4,8 +4,6 @@
 #header {
     background: url("../images/header-background.jpg") no-repeat fixed center;
     min-width: 100%;
-    min-height: 800px;
-    height: 80vh;
     background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -20,9 +18,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 150px;
+    padding: 90px 150px;
     width: 100%;
-    height: 620px;
     position: relative;
 }
 
@@ -81,7 +78,7 @@
 
 #header .content .left .buttons {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -195,6 +192,7 @@
     color: var(--description-color);
     font-size: 15px;
     font-weight: 400;
+    width: 100%;
 }
 
 #header .content .right .stats .stat .texts p span {
@@ -659,16 +657,33 @@
 
 /*Responsive*/
 /*Header*/
+
+@media screen and (max-width: 1750px) {
+    #header .content {
+        /* flex-direction: column; */
+    }
+
+    #header .content .left .server-name h1 {
+        width: 800px;
+    }
+}
+
 @media screen and (max-width: 1625px) {
     #header .content {
-        padding: 150px 90px;
+        padding: 50px 90px;
         align-items: start;
         justify-content: center;
+        width: auto;
+    }
+
+    #header .content .right .logo-img {
+        margin: 50px 0px 0px 0px;
     }
 }
 
 @media screen and (max-width: 1450px) {
     #header .content {
+        width: 100%;
         flex-direction: column;
         padding: 120px 90px;
         height: 100%;
@@ -676,20 +691,14 @@
     }
 
     #header .content .left {
+        width: 100%;
         gap: 30px;
         justify-content: left;
     }
 
-    #header .content .left .server-name h1 {
-        width: 100%;
-    }
 
     #header .content .right .stats {
         width: fit-content;
-    }
-
-    #header .content .right .logo-img {
-        display: none;
     }
 
     @media screen and (min-height: 745px) {
@@ -711,9 +720,15 @@
     }
 }
 
+@media screen and (max-width: 950px) {
+    #header .content .left .server-name h1 {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 819px) {
     #header .content {
-        padding: 150px 30px;
+        padding: 50px 30px;
     }
 
     #header .content .left .server-name p {
@@ -726,17 +741,21 @@
 
     #header .content .left .server-description {
         font-size: 16px;
+        width: 100%;
     }
 
     #header .content .right {
         width: 100%;
-        height: 265px;
     }
 
     #header .content .right .stats {
         width: 100%;
         justify-content: space-between;
     }
+
+    #header .content .right .logo-img {
+        display: none;
+    } 
 }
 
 @media screen and (max-width: 621px) {
@@ -767,26 +786,36 @@
     #header .content {
         padding: 50px 30px;
     }
-
-    #header .content .left .buttons {
-        flex-direction: column;
-    }
 }
 
 @media screen and (max-width: 340px) {
-    #header {
-        min-height: 900px;
-        /* height: 900px; */
-    }
-
     #header .content {
         padding: 50px 30px;
     }
 }
 
 @media screen and (max-width: 300px) {
-    #header {
-        min-height: 1100px;
+
+    #header .content .left .server-description {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 260px) {
+    #header .content .left .buttons .how-to-join {
+        padding: 10px 15px;
+    }
+
+    #header .content .left .buttons .copy-ip {
+        padding: 10px 15px;
+    }
+
+    #header .content .left .server-description {
+        font-size: 14px;
+    }
+
+    #header .content .right .stats .stat .texts h5 {
+        font-size: 15px;
     }
 }
 
