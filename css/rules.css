@@ -61,7 +61,7 @@
 }
 
 #rules .warning {
-    background: var(--warning-background);
+    background: var(--warning-color);
     padding: 20px;
     border-radius: 5px;
     display: flex;
@@ -71,7 +71,7 @@
 }
 
 #rules .warning p {
-    color: var(--warning-color);
+    color: var(--white-color);
     font-size: 17px;
 }
 
@@ -203,7 +203,7 @@
 #join-server .content .buttons .copy-ip {
     background: var(--copy-ip-button-background);
     border: 2px solid var(--main-color);
-    border-radius: 3px;
+    border-radius: 20px;
     padding: 10px 30px;
     color: var(--white-color);
     font-size: 17px;
@@ -215,7 +215,7 @@
 #join-server .content .buttons .join-discord {
     background: var(--how-to-join-button-background);
     border: 2px solid var(--description-color);
-    border-radius: 3px;
+    border-radius: 20px;
     padding: 10px 30px;
     color: var(--description-color);
     font-size: 17px;

@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  text-decoration: none;
 }
 
 :root {
@@ -31,7 +32,7 @@
   --red-color: #C72C41; 
   --warning-background: rgba(0, 143, 41, 0.766); 
   --warning-icon-background: rgba(0, 143, 41, 0.766);
-  --warning-color: #B0525E; 
+  --warning-color: #ff002641; 
 
   /*Admin-Team rank colors*/
   --default-rank-color: rgba(210, 208, 208, 0.3);

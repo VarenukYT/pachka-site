@@ -85,7 +85,7 @@
 #header .content .left .buttons .copy-ip {
     background: var(--copy-ip-button-background);
     border: 2px solid var(--main-color);
-    border-radius: 3px;
+    border-radius: 20px;
     padding: 10px 30px;
     color: var(--white-color);
     font-size: 17px;
@@ -101,7 +101,7 @@
 #header .content .left .buttons .how-to-join {
     background: var(--how-to-join-button-background);
     border: 2px solid var(--description-color);
-    border-radius: 3px;
+    border-radius: 20px;
     padding: 10px 30px;
     color: var(--description-color);
     font-size: 17px;
@@ -402,7 +402,7 @@
 #discord .content .join-discord {
     background: var(--copy-ip-button-background);
     border: 2px solid var(--main-color);
-    border-radius: 3px;
+    border-radius: 20px;
     padding: 10px 30px;
     color: var(--white-color);
     font-size: 17px;
@@ -425,7 +425,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
+    align-items: center;
+    gap: 20px;
 }
 
 #vote .content .info {
@@ -433,6 +434,7 @@
     flex-direction: column;
     gap: 40px;
     flex: 1;
+    margin: 0px 0px 0px 75px;
 }
 
 #vote .content .info .section-title {
@@ -474,9 +476,10 @@
 
 #vote .content .links {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 30px;
     align-items: center;
+    margin: 0px 75px 0px 0px;
 }
 
 #vote .content .links .url {
@@ -623,6 +626,10 @@
     font-size: 20px;
     position: absolute;
     right: 20px;
+}
+
+#faq .content .accordion .accordion-item:nth-child(3) .accordion-item-header::after {
+    display: none;
 }
 
 #faq .content .accordion .accordion-item .accordion-item-header.active::after {
@@ -861,29 +868,38 @@
 /*Vote*/
 @media screen and (max-width: 1313px) {
     #vote .content .links {
-        flex-direction: column;
+        margin: 0;
+    }
+
+    #vote .content .info {
+        margin: 0px;
     }
 }
 
 @media screen and (max-width: 909px) {
     #vote .content .links {
         flex-wrap: wrap;
-        flex-direction: row;
     }
 
     #vote .content .links .link {
         max-width: 300px;
+        max-width: 100%;
     }
 
     #vote .content {
         flex-direction: column;
         gap: 40px;
+        margin: 0;
     }
 }
 
-@media screen and (max-width: 690px) {
-    #vote .content .links .link {
-        max-width: 100%;
+@media screen and (max-width: 355px) {
+    #vote .content .links .link .link-description {
+        flex-wrap: wrap;
+    }
+    
+    #vote .content .links .link .link-description .icon {
+        margin: 0px auto;
     }
 }
 
