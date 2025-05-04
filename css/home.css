@@ -2,12 +2,8 @@
 
 /*Header*/
 #header {
-    background: url("../images/header-background.jpg") no-repeat fixed center;
+    background: transparent;
     min-width: 100%;
-    background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -webkit-background-size: cover;
     z-index: 0;
     display: flex;
     align-items: center;
@@ -200,6 +196,10 @@
 }
 
 /*About*/
+#about {
+    background-color: var(--background-color-transparent);
+}
+
 #about .content {
     display: flex;
     flex-direction: row;
@@ -282,7 +282,7 @@
 
 /*Mini games*/
 #minigames {
-    background: var(--stats-background);
+    background-color: var(--background-color-transparent);
 }
 
 #minigames .content {
@@ -421,6 +421,10 @@
 }
 
 /*Vote*/
+#vote {
+    background-color: var(--background-color-transparent);
+}
+
 #vote .content {
     display: flex;
     flex-direction: row;
@@ -543,7 +547,7 @@
 
 /*FAQ*/
 #faq {
-    background: var(--stats-background);
+    background-color: var(--background-color-transparent);
 }
 
 #faq .content {

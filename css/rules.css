@@ -2,12 +2,7 @@
 
 /*Header*/
 #header {
-    background: url("../images/header-background.jpg") no-repeat fixed center;
     min-width: 100%;
-    background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -webkit-background-size: cover;
     z-index: 0;
     display: flex;
     align-items: center;
@@ -54,6 +49,10 @@
 }
 
 /*Rules*/
+#rules {
+    background-color: var(--background-color-transparent);
+}
+
 #rules .content {
     display: flex;
     flex-direction: column;
@@ -198,6 +197,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
 }
 
 #join-server .content .buttons .copy-ip {

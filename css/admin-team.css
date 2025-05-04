@@ -2,12 +2,6 @@
 
 /*Header*/
 #header {
-    background: url("../images/header-background.jpg") no-repeat fixed center;
-    min-width: 100%;
-    background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -webkit-background-size: cover;
     z-index: 0;
     display: flex;
     align-items: center;
@@ -54,6 +48,10 @@
 }
 
 /*Admin-Team*/
+#admin-team {
+    background-color: var(--background-color-transparent);
+}
+
 #admin-team .content {
     display: flex;
     flex-direction: column;
@@ -136,7 +134,7 @@
 
 /*Footer*/
 #footer {
-    background: var(--stats-background);
+    background-color: var(--background-color-transparent);
 }
 
 /*Responsive*/

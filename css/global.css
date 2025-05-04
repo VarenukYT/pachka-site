@@ -12,6 +12,7 @@
   --main-font: 'Inter', sans-serif;
   --main-color: #00ff4c;
   --background-color: #1B1B1B;
+  --background-color-transparent: #1b1b1be1;
   --white-color: #D8D0C1; 
   --black-color: #0E0E0E;
   --description-color: #c7c7c7;
@@ -41,6 +42,11 @@
 body {
   background: var(--background-color);
   font-family: var(--main-font);
+  background: url("../images/header-background.jpg") no-repeat fixed center;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 /*Navbar*/
@@ -114,10 +120,24 @@ body {
   height: 3px;
   border-radius: 5px;
   background: var(--main-color);
+  transition: none;
+  animation: slideUnderline 1s ease-out forwards;
 }
 
 .navbar .links .link:not(.active):hover {
   color: var(--white-color);
+}
+
+@keyframes slideUnderline {
+  1% {
+    width: 0;
+  }
+  30% {
+    width: 0;
+  }
+  100% {
+    width: 40px;
+  }
 }
 
 .navbar .menu-mobile .hamburger {
@@ -148,6 +168,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: var(--background-color-transparent);
 }
 
 #footer p {
