@@ -32,7 +32,7 @@
 
   --red-color: #C72C41; 
   --warning-background: rgba(0, 143, 41, 0.766); 
-  --warning-icon-background: rgba(0, 143, 41, 0.766);
+  --warning-icon-background: #ff7c7c7a;
   --warning-color: #ff002641; 
 
   /*Admin-Team rank colors*/
