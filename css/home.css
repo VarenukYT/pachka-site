@@ -84,7 +84,7 @@
     border: none;
     border-radius: 10px;
     padding: 10px 30px;
-    color: var(--white-color);
+    color: white;
     font-size: 17px;
     font-weight: 600;
     cursor: pointer;
@@ -121,9 +121,10 @@
 }
 
 #header .content .right .logo-img {
-    max-width: 150px;
+    max-width: 240px;
     transform: translatey(0px);
     animation: float 4s ease-in-out infinite;
+    opacity: 0.85;
 }
 
 #header .content .right .stats {
@@ -405,7 +406,7 @@
     border: none;
     border-radius: 10px;
     padding: 10px 30px;
-    color: var(--white-color);
+    color: white;
     font-size: 17px;
     font-weight: 600;
     cursor: pointer;
