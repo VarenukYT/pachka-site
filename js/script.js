@@ -188,7 +188,7 @@ const copyIp = () => {
 
     copyIpButton.addEventListener("click", () => {
         try {
-            navigator.clipboard.writeText(config.serverInfo.serverIp);
+            navigator.clipboard.writeText("mc.pachkavarenukiv.com");
     
             copyIpAlert.classList.add("active");
 

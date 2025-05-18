@@ -202,8 +202,8 @@
 
 #join-server .content .buttons .copy-ip {
     background: var(--copy-ip-button-background);
-    border: 2px solid var(--main-color);
-    border-radius: 20px;
+    border: none;
+    border-radius: 10px;
     padding: 10px 30px;
     color: var(--white-color);
     font-size: 17px;
@@ -214,8 +214,8 @@
 
 #join-server .content .buttons .join-discord {
     background: var(--how-to-join-button-background);
-    border: 2px solid var(--description-color);
-    border-radius: 20px;
+    border: none;
+    border-radius: 10px;
     padding: 10px 30px;
     color: var(--description-color);
     font-size: 17px;
