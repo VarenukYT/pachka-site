@@ -34,6 +34,9 @@ const config = {
     atGroupsDefaultColors: {
         адміни: "rgba(255, 124, 124, 0.5)",
         модери: "rgba(255, 136, 57, 0.7)",
+        архітектори: "rgba(74, 155, 255, 0.7)",
+        ютубери: "rgba(255, 90, 90, 0.7)",
+        тіктокери: "rgba(169, 99, 255, 0.7)"
     },
     adminTeamPage: {
         адміни: [
@@ -62,11 +65,29 @@ const config = {
                 rank: "Модер",
                 skinUrlOrPathToFile: "",
                 rankColor: ""
-            },
+            }
+        ],
+        архітектори: [
             {
                 inGameName: "yaKarasik21",
-                rank: "Модер",
+                rank: "Архітектор",
                 skinUrlOrPathToFile: "https://i.ibb.co/7dw0NLGr/msedge-BD4q2-RL6-Lh-removebg-preview.png",
+                rankColor: ""
+            }
+        ],
+        ютубери: [
+            {
+                inGameName: "???",
+                rank: "Ютубер",
+                skinUrlOrPathToFile: "https://lh3.googleusercontent.com/ahyBRZrF5EcyIl28AM2wIFecbf3Qn3gbeBVpfc0XCtme7U28S89pRK5UzXgHAoXLc25z6lsM20dPC-Zc0S6ahPr4JQPoEaAQuPR8=s400",
+                rankColor: ""
+            }
+        ],
+        тіктокери: [
+            {
+                inGameName: "???",
+                rank: "Тіктокер",
+                skinUrlOrPathToFile: "https://lh3.googleusercontent.com/ahyBRZrF5EcyIl28AM2wIFecbf3Qn3gbeBVpfc0XCtme7U28S89pRK5UzXgHAoXLc25z6lsM20dPC-Zc0S6ahPr4JQPoEaAQuPR8=s400",
                 rankColor: ""
             }
         ]
