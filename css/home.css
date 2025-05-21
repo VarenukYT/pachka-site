@@ -369,6 +369,17 @@
     padding: 10px 0 0 40px;
 }
 
+#minigames .content .game .info .game-description ul li a {
+    color: var(--white-color);
+    font-weight: 600;
+    text-decoration: underline;
+    transition: 250ms;
+}
+#minigames .content .game .info .game-description ul li a:hover {
+    color: var(--white-color-2);
+    opacity: 0.9;
+}
+
 /*Discord*/
 #discord {
     background: url("../images/header-background.jpg") no-repeat fixed center;
