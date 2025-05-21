@@ -163,6 +163,24 @@ body {
   z-index: 2;
 }
 
+/*Countdown*/
+#countdown {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  background: #222;
+  color: var(--main-color);
+  padding: 0.5rem 1rem;
+  flex-wrap: wrap;
+}
+#countdown span {
+  min-width: 2ch;
+  text-align: right;
+  font-weight: bold;
+}
+
+
 /*Footer*/
 #footer {
   padding: 20px 150px;

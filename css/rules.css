@@ -149,7 +149,9 @@
     background-color: var(--rules-bcg-color);
     border-left: var(--main-color) solid 3px;
     padding: 10px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 #rules .rules .rules-list .rule {
@@ -161,6 +163,18 @@
 
 #rules .rules .rules-list .rule span {
     color: var(--main-color);
+}
+
+#rules .rules .rules-list .rule a {
+    color: var(--white-color);
+    font-weight: 600;
+    text-decoration: underline;
+    transition: 250ms;
+}
+
+#rules .rules .rules-list .rule a:hover {
+    color: var(--white-color-2);
+    opacity: 0.9;
 }
 
 /*Server Join*/
