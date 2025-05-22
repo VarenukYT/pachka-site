@@ -298,7 +298,7 @@ const setDataFromConfigToHtml = async () => {
 
 
         // 1) Вкажіть цільову дату події у форматі YYYY-MM-DDTHH:MM:SS
-        const targetDate = new Date('2025-06-01T18:00:00+02:00').getTime();;
+        const targetDate = new Date('2025-06-01T17:00:00').getTime();;
 
         // 2) Функція, що оновлює залишок кожну секунду
         const timerInterval = setInterval(() => {
