@@ -24,6 +24,7 @@
 
 #header .content .info .minecraft-server-ip {
     color: var(--white-color);
+    font-family: var(--minecraft-font);
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 600;
@@ -112,6 +113,7 @@
 }
 
 #rules .rules .rules-title {
+    font-family: var(--minecraft-font);
     list-style: none;
     font-size: 30px;
     font-weight: 700;
@@ -202,6 +204,7 @@
 }
 
 #join-server .content .section-title {
+    font-family: var(--minecraft-font);
     width: 100%;
     font-size: 30px;
     font-weight: 700;
@@ -224,6 +227,7 @@
 #join-server .content .buttons .copy-ip {
     background: var(--copy-ip-button-background);
     border: none;
+    font-family: var(--main-font);
     border-radius: 10px;
     padding: 10px 30px;
     color: white;
@@ -236,6 +240,7 @@
 #join-server .content .buttons .join-discord {
     background: var(--how-to-join-button-background);
     border: none;
+    font-family: var(--main-font);
     border-radius: 10px;
     padding: 10px 30px;
     color: var(--description-color);

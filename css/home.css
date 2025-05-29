@@ -52,6 +52,7 @@
 
 #header .content .left .server-name p {
     color: var(--white-color);
+    font-family: var(--minecraft-font);
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 600;
@@ -74,6 +75,10 @@
     line-height: 1.6;
 }
 
+#header .content .left .server-description b {
+    font-family: var(--minecraft-font);
+}
+
 #header .content .left .buttons {
     display: flex;
     flex-wrap: wrap;
@@ -82,6 +87,7 @@
 
 #header .content .left .buttons .copy-ip {
     background: var(--copy-ip-button-background);
+    font-family: var(--main-font);
     border: none;
     border-radius: 10px;
     padding: 10px 30px;
@@ -98,6 +104,7 @@
 
 #header .content .left .buttons .how-to-join {
     background: var(--how-to-join-button-background);
+    font-family: var(--main-font);
     border: none;
     border-radius: 10px;
     padding: 10px 30px;
@@ -195,6 +202,7 @@
 }
 
 #header .content .right .stats .stat .texts p span {
+    font-family: var(--minecraft-font);
     color: var(--green-color);
     font-weight: 800;
 }
@@ -220,6 +228,7 @@
 }
 
 #about .content .left .section-title {
+    font-family: var(--minecraft-font);
     font-size: 30px;
     font-weight: 700;
     color: var(--white-color);
@@ -331,6 +340,7 @@
 }
 
 #minigames .content .game .info .section-title {
+    font-family: var(--minecraft-font);
     font-size: 30px;
     font-weight: 700;
     color: var(--white-color);
@@ -403,6 +413,7 @@
 }
 
 #discord .content .section-title {
+    font-family: var(--minecraft-font);
     font-size: 30px;
     font-weight: 700;
     color: var(--white-color);
@@ -416,6 +427,7 @@
 
 #discord .content .join-discord {
     background: var(--copy-ip-button-background);
+    font-family: var(--main-font);
     border: none;
     border-radius: 10px;
     padding: 10px 30px;
@@ -457,6 +469,7 @@
 }
 
 #vote .content .info .section-title {
+    font-family: var(--minecraft-font);
     font-size: 30px;
     font-weight: 700;
     color: var(--white-color);
@@ -555,9 +568,13 @@
     height: 40px;
     font-size: 20px;
     position: relative;
-    background: var(--main-color);
-    color: var(--white-color);
     border-radius: 5px;
+    background: var(--stat-icon-background-3);
+    color: var(--white-color-2);
+    color: white;
+    padding: 10px;
+    transition: .2s ease-in-out;
+    
 }
 
 /*FAQ*/
@@ -578,6 +595,7 @@
 }
 
 #faq .content .info .section-title {
+    font-family: var(--minecraft-font);
     font-size: 30px;
     font-weight: 700;
     color: var(--white-color);
