@@ -104,6 +104,13 @@
     gap: 40px;
 }
 
+#rules .rules p {
+    color: var(--description-color);
+    font-size: 17px;
+    line-height: 1.6;
+    scroll-margin-top: 40vh;
+}
+
 #rules .rules .rules-title {
     list-style: none;
     font-size: 30px;
