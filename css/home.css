@@ -27,7 +27,6 @@
     border-radius: 5px;
     font-size: 17px;
     display: none;
-    transition: 1s;
 }
 
 #header .content .left .ip-copied.active {
