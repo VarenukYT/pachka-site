@@ -289,7 +289,7 @@ const setDataFromConfigToHtml = async () => {
 
             if (diff < 0) {
                 clearInterval(timerInterval);
-                document.getElementById('countdown').innerHTML = '<b>Подія розпочалася!</b>';
+                document.getElementById('countdown').innerHTML = '<b>ВІДКРИТТЯ ВЖЕ ВІДБУЛОСЬ!</b>';
                 return;
             }
 
